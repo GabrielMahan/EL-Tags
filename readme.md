@@ -33,7 +33,7 @@ This solution does require retrofitting buildings, but at negligible cost and st
 
 In the span of 36 hours our team created a working proof of concept using off the shelf components in a 3D printed enclosure; specifically, a Raspberry Pi, an RFID scanner microchip, and a portable cell phone battery charger.
 
-![Matt modeling the device](https://github.com/GabrielMahan/EL-Tags/blob/master/matt_model1.jpg "Matt modeling the device")
+![Matt modeling the device](https://github.com/GabrielMahan/EL-Tags/blob/master/matt_model.jpg "Matt modeling the device")
 ![Pitch photo](https://github.com/GabrielMahan/EL-Tags/blob/master/presentation1.jpg "Pitching the idea")
 
 
