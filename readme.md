@@ -1,9 +1,9 @@
 #A reliable way to locate firefighter floor location
 
 ##TL;DR (Abstract)
-NYC buildings should be retrofitted with RFID tags in the stairwell to allow firefighters to scan and report their floor location to operations command. Tags are cheap (less than $0.50/tag), and a small scanning device on the firefighter's tank can scan them within a 10ft radius, requiring no effort on the firefighter's part.
+NYC buildings should be retrofitted with RFID tags in the stairwell to allow firefighters to scan and report their floor location to operations command. Tags are cheap (less than $0.25/tag), and a small scanning device on the firefighter's tank can scan them within a 10ft radius, requiring no effort on the firefighter's part.
 
-This idea and proof of concept was a winning hack at the MD5 National Security Technology Accelerator 2016 Hackathon in NYC.
+This idea and working proof of concept was a winning hack at the MD5 National Security Technology Accelerator 2016 Hackathon in NYC.
 
 ##The problem
 
@@ -21,6 +21,8 @@ We suggest a simple two-pronged solution.
 
 First, we recommend that the NYC firecode be amended to require that all buildings over ten stories in NYC be outfitted with passive RFID stickers indicating the floor number in the stairwell and at elevator entrances. Floors need to be visually marked regardless, and the incorporation of an RFID tag indicating the floor number is a trivial additional cost at under $0.25 per tag. The cost to retrofit the **entire** city with such UHF passive tags is in the ballpark of $50,000 to $100,000--an almost negligible cost considering the trillions of dollars of real estate in NYC. Tags have a storage life of at least 10 years, work when accidentally painted over, and require no maintenance or power supply.
 
+![Matt modeling the device](http://github.com/gabrielmahan/el-tags/matt_model.jpg)
+
 Secondly, firefighters should be outfitted with an RFID reader calibrated to scan tags within a 10 foot range. This is achievable using off the shelf components at low cost, and as other wearable firefighter-location systems reach maturity, the incorporation  of such RFID functionality into their devices will continue to provide the most valuable and accurate data. These sensors are easily attached to the firefighter's equipment and scan tags within a 10 foot (adjustable) proximity as the firefighter moves through the building, freeing the firefighter to focus on the mission. Upon scanning a tag, the device relays the floor number via radio to operations command, which is updated instantaneously.
 
 This solution does require retrofitting buildings, but at negligible cost and sticker-book simplicity. Of all the requirements of the city's firecode, placing numbered stickers in a stairwell would be among the simplest--and the cheapest.
@@ -29,4 +31,4 @@ This solution does require retrofitting buildings, but at negligible cost and st
 
 In the span of 36 hours our team created a working proof of concept using off the shelf components in a 3D printed enclosure; specifically, a Raspberry Pi, an RFID scanner microchip, and a portable cell phone battery charger.
 
-The Raspberry Pi module communicated with a RESTful Rails API, and a web interface provided real-time updates as the user traversed the building. 
+The Raspberry Pi module communicated with a RESTful Rails API, and a web interface provided real-time updates as the user traversed the building.
