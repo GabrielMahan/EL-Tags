@@ -21,7 +21,7 @@ We suggest a simple two-pronged solution.
 
 First, we recommend that the NYC firecode be amended to require that all buildings over ten stories in NYC be outfitted with passive RFID stickers indicating the floor number in the stairwell and at elevator entrances. Floors need to be visually marked regardless, and the incorporation of an RFID tag indicating the floor number is a trivial additional cost at under $0.25 per tag. The cost to retrofit the **entire** city with such UHF passive tags is in the ballpark of $50,000 to $100,000--an almost negligible cost considering the trillions of dollars of real estate in NYC. Tags have a storage life of at least 10 years, work when accidentally painted over, and require no maintenance or power supply.
 
-![Matt modeling the device](http://github.com/gabrielmahan/el-tags/matt_model.jpg)
+![Matt modeling the device](https://github.com/GabrielMahan/EL-Tags/blob/master/matt_model.jpg)
 
 Secondly, firefighters should be outfitted with an RFID reader calibrated to scan tags within a 10 foot range. This is achievable using off the shelf components at low cost, and as other wearable firefighter-location systems reach maturity, the incorporation  of such RFID functionality into their devices will continue to provide the most valuable and accurate data. These sensors are easily attached to the firefighter's equipment and scan tags within a 10 foot (adjustable) proximity as the firefighter moves through the building, freeing the firefighter to focus on the mission. Upon scanning a tag, the device relays the floor number via radio to operations command, which is updated instantaneously.
 
