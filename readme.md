@@ -38,3 +38,5 @@ In the span of 36 hours our team created a working proof of concept using off th
 
 
 The Raspberry Pi module communicated with a RESTful Rails API, and a web interface provided real-time updates as the user traversed the building.
+
+![Hackathon](https://github.com/GabrielMahan/EL-Tags/blob/master/hackathon.jpg "Hackathon mingling")
