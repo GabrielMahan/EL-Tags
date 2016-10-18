@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  padding: 0 16px;
+}
+
+input {
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 8px;
+}
+
+#staircase {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+sd-people {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+sd-history {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

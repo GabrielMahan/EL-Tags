@@ -1,0 +1,26 @@
+:host {
+  border: 1px solid #e1e1e1;
+  display: block;
+  padding: 16px;
+  text-align: center;
+  width: 250px;
+  height: 500px;
+}
+
+#title {
+  font-size: 20px;
+}
+
+.floor {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 15px;
+}
+
+.floor-number {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.floor-person {
+  color: rgba(0,0,0,0.7);
+}

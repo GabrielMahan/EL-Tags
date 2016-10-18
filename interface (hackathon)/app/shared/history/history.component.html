@@ -1,0 +1,5 @@
+<div id="title">EVENTS</div>
+<div class="event" *ngFor="let event of historyListService.events">
+  <div class="event-timestamp">{{event.timestamp}}</div>
+  <div class="event-text">{{event.text}}</div>
+</div>

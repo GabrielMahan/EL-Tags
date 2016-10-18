@@ -1,0 +1,9 @@
+<div id="title">FLOORS</div>
+<div class="floors">
+  <div class="floor" *ngFor="let floor of floors">
+    <div class="floor-number">{{getFloor(floor.number)}}</div>
+    <div class="floor-person" *ngFor="let person of floor.people">
+      {{person}}
+    </div>
+  </div>
+</div>
